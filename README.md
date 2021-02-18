@@ -20,3 +20,7 @@ Challenge: Modify the lease agreement with your signature without changing the o
                        -------------
                        Please Sign Here: 
            '''
+
+## Day 2 Grocery Price Percentage Difference
+
+Dot has a few lists you can use as reference: their grocery list, the prices they used to pay in the city, and the prices for the rural grocer. What is the price difference between groceries in the city vs. groceries in the country, as a percentage of country prices?
