@@ -5,11 +5,11 @@
 
 Below is an example of the f'string format, which allows us to input certain pre-defined variables in a string.
 
-x = 'string'
-y = 2021
+           x = 'string'
+           y = 2021
 
-string_formating = f'This is a {x} format and the year is {y}.' #prints out 'This is a string format and the year is 2021."
-To read more on formatting strings in Python read this article.
+           string_formating = f'This is a {x} format and the year is {y}.'
+           #prints out 'This is a string format and the year is 2021."
 
 Challenge: Modify the lease agreement with your signature without changing the original lease variable.
 
