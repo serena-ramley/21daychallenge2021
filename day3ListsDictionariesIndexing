@@ -1,0 +1,22 @@
+# Create a paint_list list from the new_shopping_list list using the built in python list indexing ability.
+
+shopping_list = ['20 x Oak plank', '20 x Oak Plank', '20 x Cherry Plank', 'White Paint', 'White Paint', 'White Paint']
+
+new_shopping_list = shopping_list[0:4]
+
+additional_paint = ['Blue Paint', 'Blue Paint', 'Blue Paint', 'Blue Paint', 'Blue Paint']
+
+new_shopping_list.append(additional_paint)
+
+new_shopping_list.pop(0)
+new_shopping_list.insert(0, "20 x Maple Plank")
+
+new_shopping_list.pop(1)
+new_shopping_list.insert(1, "20 x Maple Plank")
+
+print(new_shopping_list)
+# ['20 x Maple Plank', '20 x Maple Plank', '20 x Cherry Plank', 'White Paint', 'Blue Paint', 'Blue Paint', 'Blue Paint', 'Blue Paint', 'Blue Paint']
+
+paint_list = new_shopping_list[3:]
+print(paint_list)
+# ['White Paint', 'Blue Paint', 'Blue Paint', 'Blue Paint', 'Blue Paint', 'Blue Paint']
