@@ -93,3 +93,19 @@ Using Python, develop a list of items that are too expensive for Dot to purchase
            country_price = [5.49, 4.69, 4.42, 5.99, 5.99, 2.50,
                            1.25, 2.49, 4.50, 6.75, 2.49, 1.99, 
                            6.25, 3.99, 3.59, 4.99, 1.69, 1.87, 10.99]
+
+## Day 6 Descriptive Statistics with Pandas Library
+
+Challenge:
+There are many holes in the living room's ceiling that desperately need to be fixed. Dot's measured them, and in total there are about 100. They need to figure out how much does it cost to fix all of the holes. Differently sized holes will require differently sized patches to fix them.
+
+           Size of Hole	                                 Cost to Fix
+           Small (less than 20 mm)	                      $1.30
+           Medium (above or equal to 20 mm AND less than 70mm)	$1.60
+           Large (above or equal to 70 mm)	                      $2.10
+Dot needs you to look at the measurements and figure out the answers to the following questions:
+
+Using pandas, determine:
+What is the average sized hole?
+What is the average cost to fix a hole?
+What is the total cost of fixing all of the holes?
