@@ -100,8 +100,8 @@ Challenge:
 There are many holes in the living room's ceiling that desperately need to be fixed. Dot's measured them, and in total there are about 100. They need to figure out how much does it cost to fix all of the holes. Differently sized holes will require differently sized patches to fix them.
 
            Size of Hole	                                 Cost to Fix
-           Small (less than 20 mm)	                      $1.30
-           Medium (above or equal to 20 mm AND less than 70mm)	$1.60
+           Small (less than 20 mm)	                              $1.30
+           Medium (above or equal to 20 mm AND less than 70mm)	 $1.60
            Large (above or equal to 70 mm)	                      $2.10
 Dot needs you to look at the measurements and figure out the answers to the following questions:
 
