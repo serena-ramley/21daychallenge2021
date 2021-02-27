@@ -109,3 +109,21 @@ Using pandas, determine:
 What is the average sized hole?
 What is the average cost to fix a hole?
 What is the total cost of fixing all of the holes?
+
+# Day 7 Functions and data cleaning
+
+Everything in Dot's new house is finally coming together now! The repairs are finished, and the cleaning's done. But the house won’t feel like a home until Dot finishes unpacking all their belongings. The problem is, the way things are organized is so chaotic that every time Dot approaches the pile of their boxes, they get overwhelmed and run away to continue procrastinating.
+
+Help Dot stop procrastinating on unpacking their things by cleaning up the dataset of their belongings.
+
+Dot has a lot of different boxes laying around. They need a system for how to unpack them, or they'll just continue procrastinating. Help Dot sort the boxes by their weight.
+
+           Box:	Weight (kg)
+           Box 1	4
+           Box 2	2
+           Box 3	18
+           Box 4	21
+           Box 5	14
+           Box 6	13
+
+Create a function that will open the boxes according to their weight, from lightest to heaviest.
