@@ -1,0 +1,21 @@
+import pandas as pd
+
+user_boxes = {'weight': [4,2,18,21,14,13],
+              'box_name': ['box1','box2', 'box3', 'box4', 'box5', 'box6']
+             }
+
+def sort(table):
+    return table.sort_values("weight")
+
+data_frame = sort(pd.DataFrame(user_boxes))
+print(data_frame)
+
+'''
+   weight box_name
+1       2     box2
+0       4     box1
+5      13     box6
+4      14     box5
+2      18     box3
+3      21     box4
+'''
