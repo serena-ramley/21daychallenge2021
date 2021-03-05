@@ -127,3 +127,22 @@ Dot has a lot of different boxes laying around. They need a system for how to un
            Box 6	13
 
 Create a function that will open the boxes according to their weight, from lightest to heaviest.
+
+# Day 8 Data Frames
+
+Dot had a tiring set of days last week, getting their new off-the-grid home repaired and tidied up. Last night they sure slept like a log, if logs could sleep. Waking up well-rested to a sparkling-clean home, they feel completely rejuvenated and happy. 
+
+When pouring some milk into their morning coffee, an idea starts whirring in Dot's head. They live in a rural place now, why would they continue buying milk at the grocery store like a city-dweller? Why not get it directly from a cow? 
+
+Dot knows that there's a big cow farm just down the road where you can rent out a spotted friend for a few months. The thing is, they're not sure if this is the best time to do that. Do cows produce more milk during certain months, and less during others? 
+
+By analyzing the dataset with pandas, answer the following questions for Dot:
+
+At what year and month did company x produce the most milk?
+At what year and month did company x produce the least milk?
+           
+           import pandas as pd
+
+           #To Read a Dataset
+           #Milk.csv is stored into a Pandas DataFrame variable called df.
+           df = pd.read_csv('milk.csv')
