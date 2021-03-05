@@ -1,0 +1,20 @@
+import pandas as pd
+
+df = pd.read_csv('milk.csv')
+
+df.iloc[df['Monthly milk production: pounds per cow'].idxmax()]
+
+'''
+Month                                      19-Jun
+Monthly milk production: pounds per cow       969
+Name: 148, dtype: object
+'''
+
+# df.iloc[df['Monthly milk production: pounds per cow'].idxmin()]
+
+'''
+Month                                      07-Dec
+Monthly milk production: pounds per cow       553
+Name: 10, dtype: object
+'''
+
