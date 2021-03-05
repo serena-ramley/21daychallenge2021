@@ -1,0 +1,20 @@
+import pandas as pd
+df = pd.read_csv('milk_2.csv')
+
+df.median()
+df['Monthly milk production: pounds per cow'] = df['Monthly milk production: pounds per cow'].fillna(value = 755.5)
+df['Number of Cows'] = df['Number of Cows'].fillna(method = 'ffill')
+df.describe()
+
+'''
+
+Monthly milk production:  pounds per cow  Number of Cows
+count	                    168.000000	    168.000000
+mean	                    748.053571	    49.898810
+std	                      93.647831	      8.232141
+min	                      553.000000	    30.000000
+25%	                      687.750000	    44.000000
+50%	                      755.500000	    52.000000
+75%	                      807.500000	    57.000000
+max	                      966.000000	    62.000000
+'''
