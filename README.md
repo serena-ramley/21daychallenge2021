@@ -146,3 +146,22 @@ At what year and month did company x produce the least milk?
            #To Read a Dataset
            #Milk.csv is stored into a Pandas DataFrame variable called df.
            df = pd.read_csv('milk.csv')
+
+# Day 9: pandas data cleaning & filling NaNs
+
+Dot understands how cows work a bit more now. They got themselves really hyped up to rent a cow, and traversed down the road to the cow farm. Dot spent some time negotiating with the cow farmer how much it would be to rent a cow, then went over to take a look at the beasts and pick a favourite.
+
+Examining the moo-ing creatures, a realization slowly sinks in. If Dot did rent out a cow, they would definitely get attached to it over the month. Having to give it back to the farmer would be heartbreaking! They think back to their youth, when they briefly took care of a friend's plankton. Giving the plankton back was one of the saddest moments of their life.
+
+Maybe Dot isn't thinking big enough. What if they took a leap and bought an entire cow - would it be worth it? How much milk would they get out of it?
+
+Fill out the missing values in the monthly milk production column with the median, and fill out the number of cows column using the ffill method.
+
+After filling in the missing values with our new data, answer these questions for Dot, so they can figure out the value of having a cow year-round:
+
+What is the average for monthly milk production?
+What is the standard deviation for monthly milk production?
+What is the average number of cows used?
+           
+           import pandas as pd
+           df = pd.read_csv('milk_2.csv')
