@@ -165,3 +165,21 @@ What is the average number of cows used?
            
            import pandas as pd
            df = pd.read_csv('milk_2.csv')
+
+# Day 10: pandas data modification
+
+Dot shakes hands with the farmer after finalizing the purchase of the most beautiful cow on the farm, who's name is Bessie. They bring Bessie over to their cabin and set her up on the front lawn. Dot stares into the eyes of their new four-legged friend, envisioning all the good times they might have. Eating grass. Standing. Sleeping. Staring blankly into the distance. What a life they could have together!
+
+But, another thought is starting to bother Dot...they're just one person, and they're not sure how much milk they'd be able to drink. They like putting dairy in their coffee and cereal just as much as anyone else, but drinking a tall glass of milk on its own kinda grosses them out.
+
+What are they gonna do with all this milk? Ah-ha - maybe they can sell it! But how profitable will that be?
+
+Help Dot figure out how profitable selling fresh milk can be, by looking at the dataset for the cow farm. Fill in the values for the following columns based on the available data:
+
+Total Milk Production
+Total Revenue
+
+           import pandas as pd
+
+           df = pd.read_csv('milk_32.csv')
+           df = df.drop(columns = ['Unnamed: 0'])
