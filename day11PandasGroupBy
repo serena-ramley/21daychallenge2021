@@ -1,0 +1,7 @@
+import pandas as pd
+
+df = pd.read_csv('avocado.csv', index_col = 0)
+groupedDF = df.groupby(['year','region']).mean()
+groupedDF.loc[(2017,'Albany')]['AveragePrice']
+
+# 1.6378301886792455
