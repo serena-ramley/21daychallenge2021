@@ -183,3 +183,15 @@ Total Revenue
 
            df = pd.read_csv('milk_32.csv')
            df = df.drop(columns = ['Unnamed: 0'])
+
+## Day 11 pandas group by
+
+Dot's dreams of being a cow farmer seem to have been short-lived. When Dot wakes up in the morning, Bessie's already gone. Maybe they should have let her sleep in the house with them, but they didn't think the landlord would've liked that. After searching for a few hours, Dot finds Bessie hanging out with some mean-looking cows by an abandoned barn a little while away. All the cows have heavy septum rings hanging from their noses, and Dot is too scared to bother them.
+
+As they walk back home, Dot feels sad about abandoning their newly-discovered dream of being a farmer. They're so caught up in their grief that they walk right into a big, leafy tree! A weird fruit fell from the tree and smacked Dot right in the head.
+
+Rubbing their bruise, Dot looks at the fruit that hit them, curious. An avocado! Their head begins to spin with images as they imagine their future as a wildly successful avocado farmer.
+
+           import pandas as pd
+
+           df = pd.read_csv('avocado.csv', index_col = 0)
